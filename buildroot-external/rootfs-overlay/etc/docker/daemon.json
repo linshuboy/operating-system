@@ -8,5 +8,11 @@
     },
     "data-root": "/mnt/data/docker",
     "deprecated-key-path": "/mnt/overlay/etc/docker/key.json",
-    "bip": "172.30.232.1/23"
+    "bip": "172.30.232.1/23",
+    "registry-mirrors": [
+        "https://vjtojkp9.mirror.aliyuncs.com",
+        "http://registry.docker-cn.com",
+        "http://docker.mirrors.ustc.edu.cn",
+        "http://hub-mirror.c.163.com"
+    ]
 }
